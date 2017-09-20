@@ -11,26 +11,26 @@ public class FavouriteForage {
 
     public FavouriteForage(){
         this.guide = new ArrayList<>();
-        guide.add(new Forage(Edible.FRUIT, "Blackberry", Season.SUMMER));
-        guide.add(new Forage(Edible.MUSHROOM, "Chantarelles", Season.AUTUMN));
-        guide.add(new Forage(Edible.MUSHROOM, "Cep", Season.AUTUMN));
-        guide.add(new Forage(Edible.MUSHROOM, "Giant Polypore", Season.AUTUMN));
-        guide.add(new Forage(Edible.FRUIT, "Blueberry", Season.SUMMER));
-        guide.add(new Forage(Edible.FRUIT, "Raspberry", Season.SUMMER));
-        guide.add(new Forage(Edible.GREENS, "Samphire", Season.SPRING));
-        guide.add(new Forage(Edible.FRUIT, "Strawberry", Season.SUMMER));
-        guide.add(new Forage(Edible.GREENS, "Fool's Watercress", Season.WINTER));
-        guide.add(new Forage(Edible.GREENS, "Greater Plantain", Season.WINTER));
-        guide.add(new Forage(Edible.GREENS, "Rose-bay Willow Herb", Season.SPRING));
-        guide.add(new Forage(Edible.GREENS, "Ground Elder", Season.SPRING));
-        guide.add(new Forage(Edible.MUSHROOM, "Hedgehog Fungus", Season.AUTUMN));
-        guide.add(new Forage(Edible.GREENS, "Chickweed", Season.SPRING));
-        guide.add(new Forage(Edible.GREENS, "Herb Robert", Season.SPRING));
-        guide.add(new Forage(Edible.GREENS, "Nettle", Season.SPRING));
-        guide.add(new Forage(Edible.MUSHROOM, "Dryad's Saddle", Season.SUMMER));
+        guide.add(new Forage(Edible.FRUIT, "Blackberry", "Summer"));
+        guide.add(new Forage(Edible.MUSHROOM, "Chantarelles", "Autumn"));
+        guide.add(new Forage(Edible.MUSHROOM, "Cep", "Autumn"));
+        guide.add(new Forage(Edible.MUSHROOM, "Giant Polypore", "Autumn"));
+        guide.add(new Forage(Edible.FRUIT, "Blueberry", "Summer"));
+        guide.add(new Forage(Edible.FRUIT, "Raspberry", "Summer"));
+        guide.add(new Forage(Edible.GREENS, "Samphire", "Spring"));
+        guide.add(new Forage(Edible.FRUIT, "Strawberry", "Summer"));
+        guide.add(new Forage(Edible.GREENS, "Fool's Watercress", "Winter"));
+        guide.add(new Forage(Edible.GREENS, "Greater Plantain", "Winter"));
+        guide.add(new Forage(Edible.GREENS, "Rose-bay Willow Herb", "Spring"));
+        guide.add(new Forage(Edible.GREENS, "Ground Elder", "Spring"));
+        guide.add(new Forage(Edible.MUSHROOM, "Hedgehog Fungus", "Autumn"));
+        guide.add(new Forage(Edible.GREENS, "Chickweed", "Spring"));
+        guide.add(new Forage(Edible.GREENS, "Herb Robert", "Spring"));
+        guide.add(new Forage(Edible.GREENS, "Nettle", "Spring"));
+        guide.add(new Forage(Edible.MUSHROOM, "Dryad's Saddle", "Summer"));
     }
 
     public ArrayList<Forage> getGuide() {
-        return new ArrayList<Forage>(guide);
+        return new ArrayList<>(guide);
     }
 }

@@ -7,9 +7,9 @@ package com.example.user.foragelistview;
 public class Forage {
     private Enum<Edible> type;
     private String name;
-    private Enum<Season> seasonAvailable;
+    private String seasonAvailable;
 
-    public Forage(Enum<Edible> type, String name, Enum<Season> seasonAvailable){
+    public Forage(Enum<Edible> type, String name, String seasonAvailable){
         this.type = type;
         this.name = name;
         this.seasonAvailable = seasonAvailable;
@@ -23,7 +23,7 @@ public class Forage {
         return name;
     }
 
-    public Enum<Season> getSeasonAvailable() {
+    public String getSeasonAvailable() {
         return seasonAvailable;
     }
 
